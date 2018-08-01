@@ -1,0 +1,247 @@
+body, html{
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  background-color: #2D2F35;
+  font-family: 'Lato', sans-serif;
+}
+h1{
+  font-family: 'Catamaran', sans-serif;
+  color: #FF5B55;
+  font-size: 2em;
+  /*text-shadow: 2px 2px 1px black;*/
+}
+h2{
+  font-family: 'Catamaran', sans-serif;
+  color: #EFEFEF;
+  font-size: 1.4em;
+  /*text-shadow: 2px 2px 1px black;*/
+}
+h3{
+  font-family: 'Catamaran', sans-serif;
+  color: #EFEFEF;
+  font-size: 1.2em;
+  font-style: italic;
+}
+p{
+  font-family: 'Lato', sans-serif;
+  color: #EFEFEF;
+  font-size: 1.1em;
+}
+ul{
+  list-style: none;
+}
+a{
+  color: inherit;
+  text-decoration: inherit;
+}
+#header{
+  position: relative;
+  float: left;
+  width: 100%;
+  top: 0px;
+  height: 30px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3b233b+0,6a383f+24,6f6c39+66,626a6e+100&0.85+70,0+100 */
+  background: -moz-linear-gradient(left, rgba(59,35,59,0.85) 0%, rgba(106,56,63,0.85) 24%, rgba(111,108,57,0.85) 66%, rgba(109,108,63,0.85) 70%, rgba(98,106,110,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(59,35,59,0.85) 0%,rgba(106,56,63,0.85) 24%,rgba(111,108,57,0.85) 66%,rgba(109,108,63,0.85) 70%,rgba(98,106,110,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgba(59,35,59,0.85) 0%,rgba(106,56,63,0.85) 24%,rgba(111,108,57,0.85) 66%,rgba(109,108,63,0.85) 70%,rgba(98,106,110,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d93b233b', endColorstr='#00626a6e',GradientType=1 ); /* IE6-9 */
+}
+#main-container{
+  padding-left: 175px;
+  width: 60vw;
+}
+#container{
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+#sidebar{
+  width: auto;
+  height: 100%;
+  padding: 10px;
+  margin-right: 30px;
+  background-color: #1C1D21;
+  color: white;
+  box-shadow: 1px 0px 2px black;
+  border-bottom-width: 2px;
+  border-bottom-color: #400CB5;
+  float:left;
+  position: fixed;
+  text-align: center;
+}
+#footer{
+  position: relative;
+  float: left;
+  width: 100%;
+  bottom: 0px;
+  height: 30px;
+  background: rgb(28,31,34); /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, rgba(28,31,34,1) 0%, rgba(9,12,13,1) 100%); /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(28,31,34,1) 0%,rgba(9,12,13,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center, rgba(28,31,34,1) 0%,rgba(9,12,13,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c1f22', endColorstr='#090c0d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+#footer #content{
+  margin-left: 90%;
+  font-size: 1em;
+  color: #EFEFEF;
+  margin-top: 7px;
+}
+#logo{
+  padding-top:20px;
+  width: 80px;
+  -webkit-filter: grayscale(0) blur(0);
+	filter: grayscale(0) blur(0);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#logo:hover{
+  -webkit-filter: grayscale(50%) blur(0px);
+	filter: grayscale(50%) blur(0px);
+}
+#title{
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+}
+#main-nav{
+  padding-left: 0px;
+}
+#main-nav li {
+  margin-bottom: 10px;
+  color: #EFEFEF;
+  font-size: 1.2em;
+}
+#main-nav .g1:hover{
+  margin-bottom: 10px;
+  color: #705aff;
+}
+#main-nav .g2:hover{
+  margin-bottom: 10px;
+  color: #7aff8e;
+}
+#main-content{
+  color: #EFEFEF;
+  padding-left: 15%;
+}
+#main-content #portrait{
+  width: 300px;
+  float:left;
+}
+#main-content #text{
+  float: right;
+  width: auto;
+  padding-right: 50px;
+  padding-top: 50px;
+  text-align: right;
+  color: #EFEFEF;
+  height: auto;
+  display: inline;
+  /*text-shadow: 2px 2px 1px black;*/
+}
+#portrait-container{
+  width: auto;
+  float: left;
+  display: inline;
+}
+#main-content #top{
+  height: 200px;
+}
+#main-content #text p{
+  font-size: 1.5em;
+}
+#main-content #text h1{
+  padding: 0px;
+  margin:0px;
+  font-family: 'Bungee';
+  font-size: 4em;
+}
+#about{
+  float: left;
+  margin-top: 15%;
+  padding-right: 0;
+  margin-bottom: 20px;
+  width: 100%;
+}
+#education{
+  float: left;
+  margin-top: 20px;
+  padding-right: 0;
+  margin-bottom: 20px;
+  width: 100%;
+}
+#skills{
+  float: left;
+  margin-top: 20px;
+  padding-right: 0;
+  margin-bottom: 20px;
+}
+#experience{
+  float: left;
+  margin-top: 20px;
+  padding-right: 0;
+  margin-bottom: 30px;
+  width: 100%;
+}
+#portfolio{
+  float: left;
+  margin-top: 20px;
+  padding-right: 0;
+  margin-bottom: 30px;
+  width: inherit;
+}
+#contact{
+  float: left;
+  margin-top: 20px;
+  padding-right: 0;
+  margin-bottom: 30px;
+}
+#arrows{
+  float: left;
+  margin-top: 10%;
+  padding-left: 50%;
+  width: 100px;
+}
+#spinner{
+  width: 300px;
+  height: 300px;
+  -webkit-animation:spin 120s linear infinite;
+  -moz-animation:spin 120s linear infinite;
+  animation:spin 120s linear infinite;
+  position: absolute;
+  /*-webkit-filter: blur(20px);
+	filter: blur(20px)*/
+}
+.ratings{
+  color: #efefef;
+}
+.ratings td{
+  padding-bottom: 2em;
+  padding-right: 2em;
+}
+.linkedin{
+  vertical-align: middle;
+}
+.star{
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+.star:hover{
+  color: #FF5B55;
+}
+table.ratings{
+  width: auto;
+}
+.tile{
+  margin: 20px;
+  min-width: 15vw;
+  max-width: 50vw;
+}
+.tile:hover{
+  box-shadow: 1px 1px 5px #FF5B55;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
